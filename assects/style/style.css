@@ -105,6 +105,9 @@ body {
   margin-inline: auto;
   padding-inline: 12px;
 }
+.hero-div{
+  padding-top: 80px;
+}
 .Expert-text {
   font-size: 50px;
   max-width: 599px;
