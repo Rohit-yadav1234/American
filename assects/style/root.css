@@ -1,0 +1,93 @@
+:root {
+  --fs-xs: 13px;
+  --fs-sm: 14px;
+  --fs-md: 15px;
+  --fs-lg: 19px;
+  --fs-xl: 22px;
+  --fs-xxl: 50px;
+
+  --color-white: #ffffff;
+  --color-dark-red: #9a002b;
+  --color-navy-blue: #0c1957;
+  --color-pink-red: #ea0041;
+
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+  --fw-extrabold: 800;
+}
+  /*------- font-size ----------*/
+.font-xs {
+    font-size: var(--fs-xs);
+  }
+  
+  .font-sm {
+    font-size: var(--fs-sm);
+  }
+  
+  .font-md {
+    font-size: var(--fs-md);
+  }
+  
+  .font-lg {
+    font-size: var(--fs-lg);
+  }
+  
+  .font-xl {
+    font-size: var(--fs-xl);
+  }
+  
+  .font-xxl {
+    font-size: var(--fs-xxl);
+  }
+
+  /*------- color ----------*/
+  .text-white {
+    color: var(--color-white);
+  }
+  
+  .text-dark-red {
+    color: var(--color-dark-red);
+  }
+  
+  .text-navy-blue {
+    color: var(--color-navy-blue);
+  }
+ 
+  .text-pink-red {
+    color: var(--color-pink-red);
+  }
+    /*------- font-weight ----------*/
+   .fw-regular {
+    font-weight: var(--fw-regular);
+  }
+  
+  .fw-medium {
+    font-weight: var(--fw-medium);
+  }
+  
+  .fw-semibold {
+    font-weight: var(--fw-semibold);
+  }
+  
+  .fw-bold {
+    font-weight: var(--fw-bold);
+  }
+  
+  .fw-extrabold {
+    font-weight: var(--fw-extrabold);
+  }
+  
+  @media (max-width:768px) {
+    .font-xxl{
+      font-size: 35px;
+    }
+    
+  }
+  @media (max-width:480px) {
+    .font-xxl{
+      font-size: 35px;
+    }
+    
+  }
